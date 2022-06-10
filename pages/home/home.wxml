@@ -1,0 +1,143 @@
+<view class="top1">
+  <image class="title" src="cloud://cloud-8g0y3w2af5767541.636c-cloud-8g0y3w2af5767541-1311727176/images/logo2.png"></image>
+</view>
+
+<view>
+  <swiper class="swiper" autoplay="true" interval="2200">
+    <swiper-item>
+      <image class="swiperImg" src="cloud://cloud-8g0y3w2af5767541.636c-cloud-8g0y3w2af5767541-1311727176/images/swiper1.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image class="swiperImg" src="cloud://cloud-8g0y3w2af5767541.636c-cloud-8g0y3w2af5767541-1311727176/images/swiper2.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image class="swiperImg" src="cloud://cloud-8g0y3w2af5767541.636c-cloud-8g0y3w2af5767541-1311727176/images/swiper3.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image class="swiperImg" src="cloud://cloud-8g0y3w2af5767541.636c-cloud-8g0y3w2af5767541-1311727176/images/swiper4.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image class="swiperImg" src="cloud://cloud-8g0y3w2af5767541.636c-cloud-8g0y3w2af5767541-1311727176/images/swiper5.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image class="swiperImg" src="cloud://cloud-8g0y3w2af5767541.636c-cloud-8g0y3w2af5767541-1311727176/images/swiper6.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image class="swiperImg" src="cloud://cloud-8g0y3w2af5767541.636c-cloud-8g0y3w2af5767541-1311727176/images/swiper7.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image class="swiperImg" src="cloud://cloud-8g0y3w2af5767541.636c-cloud-8g0y3w2af5767541-1311727176/images/swiper8.jpg"></image>
+    </swiper-item>
+  </swiper>
+</view>
+
+<view class="top2">
+  <view class="icontext" bindtap="sign">
+    <image class="icon" src="/pages/home/image/icon1.png"></image>
+    <text class="text2">每日签到</text>
+  </view>
+  <view class="icontext" bindtap="gohelp">
+    <image class="icon" src="/pages/home/image/icon2.png"></image>
+    <text class="text2">我要求助</text>
+  </view>
+  <view class="icontext" bindtap="gosearch">
+    <image class="icon" src="/pages/home/image/icon3.png"></image>
+    <text class="text2">查找法条</text>
+  </view>
+  <view class="icontext" bindtap="gocase">
+    <image class="icon" src="/pages/home/image/icon4.png"></image>
+    <text class="text2">司法案例</text>
+  </view>
+</view>
+
+<view>
+  <image class="block2" src="cloud://cloud-8g0y3w2af5767541.636c-cloud-8g0y3w2af5767541-1311727176/images/meifa.png"></image>
+</view>
+
+
+<view class="bottom">
+  <view class="meifa">
+    <view class="item" bindtap="gotoNO1">
+      <image class="dot" src="cloud://cloud-8g0y3w2af5767541.636c-cloud-8g0y3w2af5767541-1311727176/images/chengdot.png"></image>
+      <text class="text" space="ensp"> 面对家暴勇敢说"不"遭遇...</text>
+    </view>
+
+    <view class="item" bindtap="gotoNO2">
+      <image class="dot" src="cloud://cloud-8g0y3w2af5767541.636c-cloud-8g0y3w2af5767541-1311727176/images/chengdot.png"></image>
+      <text class="text" space="ensp"> 明星签名产品真假难辨专...</text>
+    </view>
+
+    <view class="item" bindtap="gotoNO3">
+      <image class="dot" src="cloud://cloud-8g0y3w2af5767541.636c-cloud-8g0y3w2af5767541-1311727176/images/chengdot.png"></image>
+      <text class="text" space="ensp"> 解读我国首个加强科技伦...</text>
+    </view>
+
+    <view class="item" bindtap="gotoNO4">
+      <image class="dot" src="cloud://cloud-8g0y3w2af5767541.636c-cloud-8g0y3w2af5767541-1311727176/images/chengdot.png"></image>
+      <text class="text" space="ensp"> 超便宜的代购商品有多少...</text>
+    </view>
+
+    <view class="item" bindtap="gotoNO5">
+      <image class="dot" src="cloud://cloud-8g0y3w2af5767541.636c-cloud-8g0y3w2af5767541-1311727176/images/chengdot.png"></image>
+      <text class="text" space="ensp"> 新生儿录像不该成产科搭...</text>
+    </view>
+
+    <view class="item" bindtap="gotoNO6">
+      <image class="dot" src="cloud://cloud-8g0y3w2af5767541.636c-cloud-8g0y3w2af5767541-1311727176/images/chengdot.png"></image>
+      <text class="text" space="ensp"> 扮狗抢食搔首弄姿怪异表...</text>
+    </view>
+
+    <view class="item" bindtap="gotoNO7">
+      <image class="dot" src="cloud://cloud-8g0y3w2af5767541.636c-cloud-8g0y3w2af5767541-1311727176/images/chengdot.png"></image>
+      <text class="text" space="ensp"> 民间打假人疑假买假引发...</text>
+    </view>
+
+    <view class="item" bindtap="gotoNO8">
+      <image class="dot" src="cloud://cloud-8g0y3w2af5767541.636c-cloud-8g0y3w2af5767541-1311727176/images/chengdot.png"></image>
+      <text class="text" space="ensp"> 为老年人守好网络安全</text>
+    </view>
+  </view>
+
+  <view class="fazhi">
+    <view class="item1" bindtap="gotoNO9">
+      <image class="dot" src="cloud://cloud-8g0y3w2af5767541.636c-cloud-8g0y3w2af5767541-1311727176/images/bluedot.png"></image>
+      <text class="text" space="ensp"> 公安部：自3月1日起至12月...</text>
+    </view>
+
+    <view class="item" bindtap="gotoNO10">
+      <image class="dot" src="cloud://cloud-8g0y3w2af5767541.636c-cloud-8g0y3w2af5767541-1311727176/images/bluedot.png"></image>
+      <text class="text" space="ensp"> 极简版2022年最高人民法院...</text>
+    </view>
+
+    <view class="item" bindtap="gotoNO11">
+      <image class="dot" src="cloud://cloud-8g0y3w2af5767541.636c-cloud-8g0y3w2af5767541-1311727176/images/bluedot.png"></image>
+      <text class="text" space="ensp"> 最高人民法院出台反不正当...</text>
+    </view>
+
+    <view class="item" bindtap="gotoNO12">
+      <image class="dot" src="cloud://cloud-8g0y3w2af5767541.636c-cloud-8g0y3w2af5767541-1311727176/images/bluedot.png"></image>
+      <text class="text" space="ensp"> 遏制“剧本杀”乱象，需监...</text>
+    </view>
+
+    <view class="item" bindtap="gotoNO13">
+      <image class="dot" src="cloud://cloud-8g0y3w2af5767541.636c-cloud-8g0y3w2af5767541-1311727176/images/bluedot.png"></image>
+      <text class="text" space="ensp"> 平台负有打击“虚假种草”...</text>
+    </view>
+
+    <view class="item" bindtap="gotoNO14">
+      <image class="dot" src="cloud://cloud-8g0y3w2af5767541.636c-cloud-8g0y3w2af5767541-1311727176/images/bluedot.png"></image>
+      <text class="text" space="ensp"> 《网络安全审查办法》修订...</text>
+    </view>
+
+    <view class="item" bindtap="gotoNO15">
+      <image class="dot" src="cloud://cloud-8g0y3w2af5767541.636c-cloud-8g0y3w2af5767541-1311727176/images/bluedot.png"></image>
+      <text class="text" space="ensp"> 严查这类“证书”！人社部...</text>
+    </view>
+
+    <view class="item" bindtap="gotoNO16">
+      <image class="dot" src="cloud://cloud-8g0y3w2af5767541.636c-cloud-8g0y3w2af5767541-1311727176/images/bluedot.png"></image>
+      <text class="text" space="ensp"> 用强监管让新业态消费者维...</text>
+    </view>
+  </view>
+</view>
+

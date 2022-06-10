@@ -1,0 +1,19 @@
+
+<view class="welcome-view">
+    <image class="welcome-image" src="/pages/welcome/images/welcome.png"></image>
+    <view class="enter" bindtap="jumpToHome">
+        <text class="enter-text">进入小程序</text>
+    </view>
+    <view class="welcome-text">
+        <view>
+            <text class="welcome-text1">桐心缘普法</text>
+            <text decode="{{true}}">&nbsp;•&nbsp;</text>
+            <text class="welcome-text1">法律的力量</text>
+        </view>
+        <view>
+            <text class="welcome-text2">——</text>
+            <text class="welcome-text3">桐普小程序支持IPv6网络</text>
+            <text class="welcome-text4">——</text>
+        </view>
+    </view>
+</view>

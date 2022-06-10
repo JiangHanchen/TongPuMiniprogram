@@ -1,0 +1,60 @@
+/* pages/integral/integral.wxss */
+.integral-view1{
+    background-color: #b4c7e7;
+    height: 80rpx;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.integral-view1-text{
+    
+    line-height: 80rpx;
+    padding-left: 20rpx;
+}
+.integral-view1-image{
+   
+    padding-top: 10rpx;
+    height: 60rpx;
+    width: 190rpx;
+}
+.total{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 270rpx;
+    margin-top: 150rpx;
+    margin-left: auto;
+    margin-right: auto;
+}
+.total-text{
+    position: absolute;
+   
+    text-align: center;
+    
+}
+.total-image{
+    
+    height: 250rpx;
+    width: 270rpx;
+}
+.integral-view2{
+    font-size: 28rpx;
+    display: flex;
+    flex-direction: column;
+    padding-top: 80rpx;
+    padding-left: 50rpx;
+}
+.integral-view2-text2{
+    padding-top: 30rpx;
+}
+.integral-view3{
+    font-size: 28rpx;
+    display: flex;
+    flex-direction: column;
+    padding-top: 80rpx;
+    padding-left: 50rpx;
+}
+.integral-view3-text2{
+    padding-top: 30rpx;
+    padding-right: 30rpx;
+}

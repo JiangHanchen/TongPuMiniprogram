@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<image class="image" src="cloud://cloud-8g0y3w2af5767541.636c-cloud-8g0y3w2af5767541-1311727176/images/logo.png"></image>
+<view class="canvas">
+  <canvas canvas-id="canvas_bg" class="canvas_bg" id="myCanvas" type="2d" style="height: 65px; width: 65px;">
+  </canvas>
+</view>
+<view class="view_bg" style="height: {{height}};"></view>
+<view class="prompt">
+  <text class="prompt-text">第{{amount}}题</text>
+</view>
+<view class="title" >
+  <text class="title-text">{{question.title}}</text>
+</view>
+<view class="option" wx:for="{{question.options}}" >
+  <text class="option-text{{item.selected?'-active':''}}" bindtap="{{isclicked?'answerSelected':''}}" data-idx="{{index}}" >{{item.option}}</text>
+</view>

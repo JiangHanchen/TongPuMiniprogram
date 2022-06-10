@@ -1,0 +1,46 @@
+/* pages/activity/activity.wxss */
+.top1 {
+    margin-top: 20rpx;
+    width: 750rpx;
+    height: 100rpx;
+  }
+  .title {
+    margin-left: 180rpx;
+    height: 100rpx;
+    width: 375rpx;
+  }
+
+.tongpu-image{
+    margin-top: 20rpx;
+    height: 140rpx;
+    width: 185rpx;
+}
+.activity-tongpu{
+    background-color: #eef1f1;
+}
+.answer-image{
+    height: 200rpx;
+    width: 580rpx;
+    margin-top: -50rpx;
+}
+.popularize-image{
+    height: 200rpx;
+    width: 580rpx;
+    margin-top: 60rpx;
+}
+.activity-answer{
+    padding-left: 80rpx;
+    padding-top: 130rpx;
+}
+.description{
+    box-shadow: 5px 5px 5px gainsboro;
+    border: 2px solid lightgray;
+    margin-right: 80rpx;
+    margin-top: 60rpx;
+    margin-left: 80rpx;
+    display: flex;
+    flex-direction: column;
+}
+.dexcription-1{
+    color:#4472c4 ;
+}

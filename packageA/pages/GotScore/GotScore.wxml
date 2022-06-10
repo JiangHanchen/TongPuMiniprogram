@@ -1,0 +1,80 @@
+<!--pages/answer/answer.wxml-->
+<view class="answer-view1">
+    <view class="answer-view2">
+        <button class="answer-button" style="padding: 0rpx;margin: 0rpx;" bindtap="jump">
+            <image src="/packageA/pages/GotScore/images/back.png" class="answer-view1-image1"></image>
+        </button>
+        <text class="answer-view1-text">每日答题</text>
+    </view>
+</view>
+<view class="answer-score">
+    <image class="answer-score-image" src="/packageA/pages/GotScore/images/answer-score.png"></image>
+    <view class="answer-score-text">
+        <text class="answer-score-text1">得分</text>
+        <text class="answer-score-text2">{{score}}</text>
+    </view>
+</view>
+<view class="item">
+    <view class="view-item">
+        <image class="item-image" src="{{result[0]==1?'/packageA/pages/GotScore/images/item-true.png':'/packageA/pages/GotScore/images/item-false.png'}}"></image>
+        <text class="item-text">1</text>
+    </view>
+    <view class="view-item">
+        <image class="item-image" src="{{result[1]==1?'/packageA/pages/GotScore/images/item-true.png':'/packageA/pages/GotScore/images/item-false.png'}}"></image>
+        <text class="item-text">2</text>
+    </view>
+    <view class="view-item">
+        <image class="item-image" src="{{result[2]==1?'/packageA/pages/GotScore/images/item-true.png':'/packageA/pages/GotScore/images/item-false.png'}}"></image>
+        <text class="item-text">3</text>
+    </view>
+    <view class="view-item">
+        <image class="item-image" src="{{result[3]==1?'/packageA/pages/GotScore/images/item-true.png':'/packageA/pages/GotScore/images/item-false.png'}}"></image>
+        <text class="item-text">4</text>
+    </view>
+    <view class="view-item">
+        <image class="item-image" src="{{result[4]==1?'/packageA/pages/GotScore/images/item-true.png':'/packageA/pages/GotScore/images/item-false.png'}}"></image>
+        <text class="item-text">5</text>
+    </view>
+</view>
+<view class="item">
+    <view class="view-item">
+        <image class="item-image" src="{{result[5]==1?'/packageA/pages/GotScore/images/item-true.png':'/packageA/pages/GotScore/images/item-false.png'}}"></image>
+        <text class="item-text">6</text>
+    </view>
+    <view class="view-item">
+        <image class="item-image" src="{{result[6]==1?'/packageA/pages/GotScore/images/item-true.png':'/packageA/pages/GotScore/images/item-false.png'}}"></image>
+        <text class="item-text">7</text>
+    </view>
+    <view class="view-item">
+        <image class="item-image" src="{{result[7]==1?'/packageA/pages/GotScore/images/item-true.png':'/packageA/pages/GotScore/images/item-false.png'}}"></image>
+        <text class="item-text">8</text>
+    </view>
+    <view class="view-item">
+        <image class="item-image" src="{{result[8]==1?'/packageA/pages/GotScore/images/item-true.png':'/packageA/pages/GotScore/images/item-false.png'}}"></image>
+        <text class="item-text">9</text>
+    </view>
+    <view class="view-item">
+        <image class="item-image" src="{{result[9]==1?'/packageA/pages/GotScore/images/item-true.png':'/packageA/pages/GotScore/images/item-false.png'}}"></image>
+        <text class="item-text">10</text>
+    </view>
+</view>
+<view class="container">
+    <!-- 分割线 -->
+    <view class="divLine"></view>
+</view>
+<view class="answer-analysis">
+    <image class="answer-analysis-image" src="/packageA/pages/GotScore/images/answer-analysis.png"></image>
+    <text class="answer-analysis-text">错题解析</text>
+</view>
+<view class="item2" wx:for="{{wrongs}}">
+    <view class="view-item2">
+        <image src="/packageA/pages/GotScore/images/item-false.png" class="item2-false-image"></image>
+        <text class="item2-false-text1">{{item.id}}</text>
+    </view>
+    <text class="item2-false-text2">
+        <text class="item2-false-text2-1">{{item.title}}\n</text>
+        <text class="item2-false-text2-2">解析：</text>
+        <text class="item2-false-text2-3">答案错误.\n</text>
+        <text class="item2-false-text2-4">{{item.description}}</text>
+    </text>
+</view>

@@ -1,0 +1,28 @@
+<block wx:if="{{!hasUserInfo}}">
+  <button class="log-button" bindtap="login">
+    <image src="/pages/mine/images/mine-log1.png" class="mine-log"></image>
+    <view class="log-view">
+      <text class="text1">未登录</text>
+      <text class="text2">点击登录</text>
+    </view>
+  </button>
+</block>
+<view class="log-view2">
+  <block wx:if="{{hasUserInfo}}">
+    <image src="{{userInfo.avatarUrl}}" class="mine-log"></image>
+    <text class="username">{{userInfo.nickName}}</text>
+  </block>
+</view>
+<view class="integral-view" bindtap="jumpToIntegral">
+  <image src="/pages/mine/images/integral.png" class="integral-image"></image>
+  <text class="integral-text" decode="{{true}}">&nbsp;我的积分</text>
+</view>
+<view class="record-view" bindtap="jumpToWrongs">
+  <image src="/pages/mine/images/record.png" class="record-image"></image>
+  <text class="record-text" decode="{{true}}">&nbsp;错题记录</text>
+</view>
+<view class="record-view" bindtap="jumpToAbout">
+  <image src="/pages/home/image/me.png" class="record-image"></image>
+  <text class="record-text" decode="{{true}}">&nbsp;关于我们</text>
+</view>
+<button open-type="feedback" class="feedback">意见反馈</button>

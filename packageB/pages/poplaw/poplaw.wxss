@@ -1,0 +1,154 @@
+/* pages/poplaw/poplaw.wxss */
+.poplaw-view1{
+    background-color: #b4c7e7;
+    height: 80rpx;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.poplaw-view1-text{
+    
+    line-height: 80rpx;
+    padding-left: 20rpx;
+}
+.poplaw-image{
+    border-radius: 50rpx;
+    height: 550rpx;
+    width: 550rpx;
+}
+.poplaw-view2{
+    width: 500rpx;
+    height: 650rpx;
+    margin-top: 15rpx;
+    margin-left: 55rpx;
+}
+.poplaw-view3{
+    margin-top: -50rpx;
+    margin-bottom: 80rpx;
+    display: flex;
+    height: 70rpx;
+    margin-left: 50rpx;
+    margin-right: 50rpx;
+    background-color: rgb(240, 240, 240);
+}
+.poplaw-view3-text{
+    font-family: serif;
+    font-weight: bold;
+    font-size: 50rpx;
+    top: 0;
+    height: 70rpx;
+    line-height: 70rpx;
+}
+.poplaw-view3-image{
+    padding-left: 20rpx;
+    height: 60rpx;
+    width: 60rpx;
+}
+.poplaw-image2{
+    height: 600rpx;
+    width: 650rpx;
+}
+.poplaw-view4{
+    display: flex;
+    padding-left: 50rpx;
+    padding-top: 10rpx;
+}
+.poplaw-view4-text{
+    font-family: 等线 ;
+    font-size: 50rpx;
+    position: absolute;
+    width: 200rpx;
+    padding-top: 635rpx;
+    padding-left: 80rpx;
+}
+.divLine{
+    border-style: solid;
+    border-width: 5rpx;
+    border-color: #2e75b6;
+    background: #9dc3e6;
+    width: 5rpx;
+    height: 50rpx;
+}
+.poplaw-view5{
+    align-items: center;
+    display: flex;
+    padding-top: 30rpx;
+    padding-left: 70rpx;
+}
+.container-text{
+    color: #22178b;
+    font-family: '华文中宋';
+    font-size: 50rpx;
+    margin-left: 20rpx;
+}
+.poplaw-view6{
+    margin-bottom: 25rpx;
+    margin-top: 30rpx;
+    margin-left: 60rpx;
+    align-items: center;
+    display: flex;
+}
+.poplaw-view6-image{
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 42rpx;
+    width: 50rpx;
+}
+.divLine1{
+    width: 75%;
+    height: 2rpx;
+    background-color: lightgray;
+    margin:  auto;
+}
+.poplaw-view7{
+    margin-bottom: 25rpx;
+    margin-top: 30rpx;
+    margin-left: 60rpx;
+    align-items: center;
+    display: flex;
+}
+.poplaw-view7-image{
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 42rpx;
+    width: 50rpx;
+}
+.poplaw-view8{
+    margin-bottom: 25rpx;
+    margin-top: 30rpx;
+    margin-left: 60rpx;
+    align-items: center;
+    display: flex;
+}
+.poplaw-view8-image{
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 42rpx;
+    width: 50rpx;
+}
+.poplaw-view-text{
+    font-size: 30rpx;
+    margin-left: 10rpx;
+    width: 75%;
+}
+.poplaw-view9{
+    margin-bottom: 25rpx;
+    margin-top: 30rpx;
+    margin-left: 60rpx;
+    align-items: center;
+    display: flex;
+}
+.poplaw-view9-image{
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 42rpx;
+    width: 50rpx;
+}
+
+swiper {
+    width: 600rpx;
+    height: 600rpx;
+    margin-top: 30rpx;
+    margin-left: 100rpx;
+    margin-bottom: 50rpx;
+  }

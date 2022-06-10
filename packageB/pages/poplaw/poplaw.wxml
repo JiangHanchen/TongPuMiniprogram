@@ -1,0 +1,64 @@
+<!--pages/poplaw/poplaw.wxml-->
+<view class="poplaw-view1">
+    <text class="poplaw-view1-text">普法活动</text>
+</view>
+<view>
+  <swiper class="swiper" autoplay="true" interval="3200">
+    <swiper-item>
+      <image class="poplaw-image" src="/packageB/pages/poplaw/images/poplaw.png"></image>
+    </swiper-item>
+    <swiper-item>
+      <image class="poplaw-image" src="/packageB/pages/poplaw/images/poplaw-activity.png"></image>
+    </swiper-item>
+  </swiper>
+</view>
+<view class="poplaw-view3" bindtap="gozhibojian">
+    <text class="poplaw-view3-text">→点击此处关注b站直播间←</text>
+</view>
+
+<!-- <view class="poplaw-view5"> -->
+     <!-- 分割线 -->
+  <!-- <view class="divLine"></view>
+  <text class="container-text"></text>
+</view> -->
+<view class="poplaw-view6" bindtap="goactivity1">
+    <image src="/packageB/pages/poplaw/images/poplaw-dot.png" class="poplaw-view6-image" mode="aspectFit"></image>
+    <text class="poplaw-view-text">福虎迎春丨角色扮演品人性，桐心缘新春普法添福气</text>
+</view>
+<view class="divLine1"></view>
+<view class="poplaw-view7" bindtap="goactivity2">
+    <image src="/packageB/pages/poplaw/images/poplaw-dot.png" class="poplaw-view7-image" mode="aspectFit"></image>
+    <text class="poplaw-view-text">“桐心缘”——帮孩子们扣好人生中第一粒扣子</text>
+</view>
+<view class="divLine1"></view>
+<view class="poplaw-view8" bindtap="goactivity3">
+    <image src="/packageB/pages/poplaw/images/poplaw-dot.png" class="poplaw-view8-image" mode="aspectFit"></image>
+    <text class="poplaw-view-text">“12·4”国家宪法日宣讲会暨“桐心缘”第八期成立大会</text>
+</view>
+<view class="divLine1"></view>
+<view class="poplaw-view9" bindtap="goactivity4">
+    <image src="/packageB/pages/poplaw/images/poplaw-dot.png" class="poplaw-view9-image" mode="aspectFit"></image>
+    <text class="poplaw-view-text">躬行实践，不负暑光丨桐心缘，人类高质量普法来啦</text>
+</view>
+<view class="divLine1"></view>
+<view class="poplaw-view9" bindtap="goactivity5">
+    <image src="/packageB/pages/poplaw/images/poplaw-dot.png" class="poplaw-view9-image" mode="aspectFit"></image>
+    <text class="poplaw-view-text">躬行实践，不负暑光丨桐心缘普法栏目让你追剧不迷路</text>
+</view>
+<view class="divLine1"></view>
+<view class="poplaw-view9" bindtap="goactivity6">
+    <image src="/packageB/pages/poplaw/images/poplaw-dot.png" class="poplaw-view9-image" mode="aspectFit"></image>
+    <text class="poplaw-view-text">躬行实践，不负暑光 | 桐心缘——我们有“法”说</text>
+</view>
+<view class="divLine1"></view>
+<view class="poplaw-view9" bindtap="goactivity7">
+    <image src="/packageB/pages/poplaw/images/poplaw-dot.png" class="poplaw-view9-image" mode="aspectFit"></image>
+    <text class="poplaw-view-text">躬行实践，不负暑光 | 送法下乡，“桐心缘”这支队伍不一般</text>
+</view>
+<view class="divLine1"></view>
+<view class="poplaw-view9" bindtap="goactivity8">
+    <image src="/packageB/pages/poplaw/images/poplaw-dot.png" class="poplaw-view9-image" mode="aspectFit"></image>
+    <text class="poplaw-view-text">“桐心缘”志愿服务队诚邀你的加入！</text>
+</view>
+    
+

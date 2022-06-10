@@ -1,0 +1,22 @@
+<view class="top">
+    <text class="top-text">错题记录</text>
+    <image src="cloud://cloud-8g0y3w2af5767541.636c-cloud-8g0y3w2af5767541-1311727176/images/logo.png" class="top-image"></image>
+</view>
+<view class="middle" wx:for="{{wrongs}}">
+    <view class="style">
+        <view class="style-1">
+            <view class="style-1-1">原题题目：</view>
+            <view class="style-1-2">{{item.title}}</view>
+        </view>
+        <view class="style-2" >
+            <view>我的答案：</view>
+            <view>{{item.userSelected}}</view>
+        </view>
+    </view>
+    <view class="style1">
+            <view class="style1-1">错题解析：</view>
+            <view class="style1-2">{{item.description}}</view>
+    </view>
+</view>
+
+

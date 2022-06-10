@@ -1,0 +1,19 @@
+// app.js
+App({
+    globalData:{
+        openid:'null',
+        isLogIn:false,
+        score:0,
+        loginTime:'null'
+    },
+    onLaunch(){
+        wx.cloud.init({
+            env:"cloud-8g0y3w2af5767541"
+        })
+        this.globalData.openid='null'
+        this.globalData.isLogIn=false
+        this.globalData.score=0
+        this.globalData.loginTime='null'
+        console.log('小程序刚加载的初始化',this.globalData.openid)
+    }
+})

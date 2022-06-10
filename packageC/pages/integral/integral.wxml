@@ -1,0 +1,19 @@
+<!--pages/integral/integral.wxml-->
+<view class="integral-view1">
+    <text class="integral-view1-text">我的积分</text>
+    <image src="/images/logo.png" class="integral-view1-image"></image>
+</view>
+<view class="total">
+    <image class="total-image" src="/packageC/pages/integral/images/totalScore.png"></image>
+    <text class="total-text">{{integral}}</text>
+</view>
+<view class="integral-view2"> 
+    <text decode="{{true}}" class="integral-view2-text1">&nbsp;&nbsp;兑换规则:</text>
+    <text decode="{{true}}" class="integral-view2-text2">1、699&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;网易七天黑胶VIP或者QQ音乐</text>
+    <text decode="{{true}}" class="integral-view2-text3">2、1999&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;腾讯三十天会员</text>
+    <text decode="{{true}}" class="integral-view2-text4">3、2999&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;五十元话费</text>
+</view>
+<view class="integral-view3"> 
+    <text decode="{{true}}" class="integral-view3-text1">&nbsp;&nbsp;积分规则:</text>
+    <text decode="{{true}}" class="integral-view3-text2">“每日答题“板块中答对一题得一分；“首页签到”板块中，签到一天得一分，连续一周额外获得2分奖励，连续一月额外获得3分奖励。（由于目前小程序尚在试运行阶段，受技术水平限制，还无法实现每日更新题库以及积分兑换功能，题库将会每周更新，请感兴趣的友友多多支持！小程序正在持续完善优化中！）</text>
+</view>

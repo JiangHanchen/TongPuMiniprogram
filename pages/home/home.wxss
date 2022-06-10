@@ -1,0 +1,131 @@
+.top1 {
+  width: 750rpx;
+  height: 100rpx;
+}
+
+.title {
+  margin-left: 180rpx;
+  height: 100rpx;
+  width: 375rpx;
+}
+
+.top2 {
+  display: flex;
+  flex-direction: row;/*规定主轴方向*/
+  justify-content: space-around;/*主轴排列方式*/
+  align-items: center;/*副轴排列方式*/
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+}
+
+.icontext {
+  display: flex;
+  flex-direction: column;/*规定主轴方向*/
+  justify-content: space-around;/*主轴排列方式*/
+  align-items: center;/*副轴排列方式*/
+  margin-top: 25rpx;
+  margin-bottom: 25rpx;
+}
+
+.icon {
+  height: 70rpx;
+  width: 70rpx;
+  margin-bottom: 10rpx;
+}
+
+.text2 {
+  font-size: 35rpx;
+  font-family: 楷体;
+}
+
+.block1 {
+  width: 300rpx;
+  height: 215rpx;
+  margin-top: 30rpx;
+  margin-right: 10rpx;
+  margin-left: 10rpx;
+}
+
+.block2 {
+  width: 600rpx;
+  height: 75rpx;
+  margin-top: 15rpx;
+  margin-left: 40rpx;
+  margin-bottom: 15rpx;
+}
+
+.me {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50rpx;
+  margin-left: 10rpx;
+}
+
+.sign {
+  width: 75rpx;
+  height: 75rpx;
+  margin-left: 550rpx;
+  margin-top: 0rpx;
+}
+
+swiper {
+  width: 600rpx;
+  height: 400rpx;
+  margin-top: 30rpx;
+  margin-left: 75rpx;
+  margin-bottom: 50rpx;
+}
+
+.swiperImg {
+  width: 600rpx;
+  height: 400rpx;
+}
+
+.dot {
+  width: 20rpx;
+  height: 20rpx;
+  margin-left: 30rpx;
+}
+
+.text {
+  font-size: 23rpx;
+}
+
+.meifa {
+  margin-top: -20rpx;
+  margin-right: 30rpx;
+  display: flex;
+  flex-direction: column;/*规定主轴方向*/
+  justify-content: center;/*主轴排列方式*/
+  align-items: left;/*副轴排列方式*/
+}
+
+.fazhi {
+  margin-top: -20rpx;
+  display: flex;
+  flex-direction: column;/*规定主轴方向*/
+  justify-content: center;/*主轴排列方式*/
+  align-items: left;/*副轴排列方式*/
+}
+
+.item {
+  margin-top: 20rpx;
+}
+
+.item1 {
+  margin-top: 18rpx;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;/*规定主轴方向*/
+  justify-content: center;/*主轴排列方式*/
+  align-items: center;/*副轴排列方式*/
+}
+
+.more {
+  font-size: 25rpx;
+  font-feature-settings: "flac";
+  margin-top: 50rpx;
+  margin-left: 180rpx;
+}

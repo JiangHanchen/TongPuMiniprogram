@@ -1,0 +1,11 @@
+<view class="top1">
+  <image class="title" src="cloud://cloud-8g0y3w2af5767541.636c-cloud-8g0y3w2af5767541-1311727176/images/logo2.png"></image>
+</view>
+<view class="activity-answer">
+  <image src="/pages/activity/images/everyday-answer.png" class="answer-image" bindtap="jumpToChoose"></image>
+  <image src="/pages/activity/images/popularize-law.png" class="popularize-image" bindtap="jumpToPoplaw"></image>
+</view>
+<view class="description">
+  <text class="dexcription-1">活动说明</text>
+  <text class="description-2" decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;每日答题活动板块每周不定时更新题库，更多好玩又有趣的法律知识等着你！提升法律素养，快来参加吧！普法活动板块持续更新桐心缘普法小队的普法活动，敬请期待！</text>
+</view>

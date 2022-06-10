@@ -1,0 +1,102 @@
+{
+    "cloud": true,
+    "pages": [
+        "pages/welcome/welcome",
+        "pages/home/home",
+        "pages/activity/activity",
+        "pages/mine/mine",
+        "pages/article/NO.1/NO.1",
+        "pages/article/NO.2/NO.2",
+        "pages/article/NO.3/NO.3",
+        "pages/article/NO.4/NO.4",
+        "pages/article/NO.5/NO.5",
+        "pages/article/NO.6/NO.6",
+        "pages/article/NO.7/NO.7",
+        "pages/article/NO.8/NO.8",
+        "pages/article/NO.9/NO.9",
+        "pages/article/NO.10/NO.10",
+        "pages/article/NO.11/NO.11",
+        "pages/article/NO.12/NO.12",
+        "pages/article/NO.13/NO.13",
+        "pages/article/NO.14/NO.14",
+        "pages/article/NO.15/NO.15",
+        "pages/article/NO.16/NO.16"
+    ],
+    "subpackages": [
+        {
+            "root": "packageA",
+            "pages": [
+                "pages/choose/choose",
+                "pages/GotScore/GotScore"
+            ]
+        },
+        {
+            "root": "packageB",
+            "pages": [
+                "pages/poplaw/poplaw",
+                "pages/gozhibojian/gozhibojian",
+                "pages/goactivity1/goactivity1",
+                "pages/goactivity2/goactivity2",
+                "pages/goactivity3/goactivity3",
+                "pages/goactivity4/goactivity4",
+                "pages/goactivity5/goactivity5",
+                "pages/goactivity6/goactivity6",
+                "pages/goactivity7/goactivity7",
+                "pages/goactivity8/goactivity8"
+            ]
+        },
+        {
+            "root": "packageC",
+            "pages": [
+                "pages/integral/integral",
+                "pages/wrongs/wrongs",
+                "pages/about/about"
+            ]
+        },
+        {
+            "root": "packageD",
+            "pages": [
+                "pages/goto/out/out",
+                "pages/goto/xianfa/xianfa",
+                "pages/goto/xingfa/xingfa",
+                "pages/goto/xingzhengfa/xingzhengfa",
+                "pages/goto/fazhiyaowen/fazhiyaowen"
+            ]
+        }
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "桐普小程序",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "list": [
+            {
+                "pagePath": "pages/home/home",
+                "text": "首 页",
+                "iconPath": "/images/index.png",
+                "selectedIconPath": "/images/index-active.png"
+            },
+            {
+                "pagePath": "pages/activity/activity",
+                "text": "活 动",
+                "iconPath": "/images/activity.png",
+                "selectedIconPath": "/images/activity-active.png"
+            },
+            {
+                "pagePath": "pages/mine/mine",
+                "text": "我 的",
+                "iconPath": "/images/mine.png",
+                "selectedIconPath": "/images/mine-active.png"
+            }
+        ]
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json",
+    "navigateToMiniProgramAppIdList": [
+        "wx182be45f90ffbf3d",
+        "wx30c77dc4d5740288",
+        "wxda9c5273012212f2"
+    ]
+}

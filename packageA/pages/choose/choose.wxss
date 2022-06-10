@@ -1,0 +1,167 @@
+/**设置全局背景色**/
+page{
+    background-color: #57aec4;
+}
+/**桐普图标的格式设置**/
+.image{
+    justify-content: end;
+    padding-left: 570rpx;
+    height: 160rpx;
+    width: 210rpx;
+}
+/**画倒计时的圆**/
+.canvas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 65px;
+    width: 65px;
+    margin: auto;
+}
+/**倒计时圆的格式设置**/
+.canvas-bg{
+    position: absolute;
+}
+.count{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    position: absolute;
+}
+/**选项和题目区的白色背景**/
+.view_bg{
+    z-index: -1;
+    border-radius: 20rpx;
+    position: absolute;
+    width: 600rpx;
+    top: 0;
+    margin-top: 150rpx;
+    margin-left: 75rpx;
+    background-color: white;
+}
+/**提示(第几题)的居中设置**/
+.prompt{
+    width: 50%;
+    margin: auto;
+    padding-top: 30rpx;
+}
+/**提示(第几题)的格式设置**/
+.prompt-text{
+    text-align: center;
+    color:#4e90cf ;
+    font-size: 32rpx;
+    width:50% ;
+    position: absolute;
+}
+/**题目的背景设置**/
+.title{
+    padding-top: 60rpx;
+    height: 150rpx;
+    width: 70%;
+    margin: auto;
+}
+/**题目的居中等格式设置**/
+.title-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150rpx;
+    text-align: center;
+    width: 70%;
+    font-size: 30rpx;
+    position: absolute;
+    font-weight: bold;
+}
+/**第一个选项的居中设置**/
+.option{
+    padding-top:30rpx;
+    padding-bottom: 110rpx;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%; 
+}
+/**第一个选项的基本设置**/
+.option-text{
+    margin: 15rpx;
+    font-size: 26rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100rpx;
+    background-color: #eaeef1;
+    width: 65%;
+    position: absolute;
+    text-align: center;
+}
+.option-text-active{
+    margin: 15rpx;
+    font-size: 26rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100rpx;
+    background-color: #57aec4;
+    width: 65%;
+    position: absolute;
+    text-align: center;
+}
+/**第二个选项的居中设置**/
+/*
+.option2{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 380rpx;
+    width: 60%;
+}
+/**第二个选项的基本设置**/
+/*
+.option2-text{
+    font-size: 26rpx;
+    line-height: 80rpx;
+    height: 80rpx;
+    background-color: #eaeef1;
+    width: 60%;
+    position: absolute;
+    text-align: center;
+}
+/**第三个选项的居中设置**/
+/*
+.option3{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 510rpx;
+    width: 60%;
+}
+/**第三个选项的基本设置**/
+/*
+.option3-text{
+    font-size: 26rpx;
+    line-height: 80rpx;
+    height: 80rpx;
+    background-color: #eaeef1;
+    width: 60%;
+    position: absolute;
+    text-align: center;
+}
+/**第四个选项的居中设置**/
+/*
+.option4{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 640rpx;
+    width: 60%;
+}
+/**第四个选项的基本设置**/
+/**
+.option4-text{
+    font-size: 26rpx;
+    line-height: 80rpx;
+    height: 80rpx;
+    background-color: #eaeef1;
+    width: 60%;
+    position: absolute;
+    text-align: center;
+}
+**/
